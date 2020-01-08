@@ -1,4 +1,4 @@
-#### Instructor of Record
+#### Instructor of Record 
 
 - **Winter 2020:** The Anatomy of English Words (LIN 110), Stony Brook University (online)
 - **Winter 2019:**	The Anatomy of English Words (LIN 110), Stony Brook University (online)
@@ -10,7 +10,7 @@
 - **2009/10:**	English as a Foreign Language Instructor, Chitsazan Language Institute; Tabriz, Iran
 
 
-#### Teaching assistant
+#### Teaching Assistant
 
 - **Spring 2020:**	Language and Technology (LIN 220), Stony Brook University
 - **Summer 2019:**	IACS Computes! High School Summer Camp, Stony Brook University
