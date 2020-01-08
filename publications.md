@@ -1,3 +1,9 @@
+---
+layout: page
+title: Publications
+permalink: /about/
+published: true
+---
 #### Journal papers
 
 - **under review:** 	Rasekhi Vahideh and Nazila Shafiei. Object ellipsis in Persian.
