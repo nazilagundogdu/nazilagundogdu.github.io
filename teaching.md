@@ -17,13 +17,11 @@
 - **Spring 2019:**	Curriculum Design and Development (LIN 571/578), Stony Brook University
 - **Fall 2017:**	Syntax (LIN 311), Stony Brook University
 - **Spring 2017:**	Literacy Development (LIN 344), Stony Brook University
-- **Winter 2016:** 	Language and Advertising (LING 223), University of Calgary
-
-	                  Syntactic Analysis (LING 401), University of Calgary
-- **Fall 2015:**	Introduction to Linguistics (LING 201), University of Calgary
-- **Winter 2015:**	Syntactic Analysis (LING 401), University of Calgary
-
-                    Introduction to Linguistics (LING 201), University of Calgary
+- **Winter 2016:** 	Language and Advertising (LING 223), University of Calgary <br />
+	                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Syntactic Analysis (LING 401), University of Calgary
+- **Fall 2015:**	Introduction to Linguistics (LING 201), University of Calgary 
+- **Winter 2015:**	Syntactic Analysis (LING 401), University of Calgary <br />
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Introduction to Linguistics (LING 201), University of Calgary
 - **Fall 2014:**	Introduction to Linguistics (LING 201), University of Calgary
 
 
