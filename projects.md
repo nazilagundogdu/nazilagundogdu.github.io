@@ -5,7 +5,7 @@ permalink: /projects/
 published: true
 ---
 
-### Term Projects
+#### Term Projects
 
 - **Ongoing** <br />
 **[A c-command Decoder:](https://github.com/nazilashafiei/NLP-Project)** This project was done as a team project (with Jing Ji) for the NLP (CSE538) course taken at Stony Brook University. The goal of the project is to build a model
