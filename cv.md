@@ -5,5 +5,7 @@ permalink: /cv/
 published: true
 --- 
 
-You can find my CV [here](about.md). 
+You can find my CV [here](https://drive.google.com/file/d/1sgWc__zqaH70KqACYQyUxxRv76je4XKP/view?usp=sharing). 
 
+
+{{% staticref "ShafieiNazila-CV-Jan20.pdf" %}}Download my CV{{% /staticref %}}
