@@ -1,3 +1,9 @@
+---
+layout: page
+title: Presentations
+permalink: /about/
+published: true
+--- 
 ### Conferences
 - **2020:**	Shafiei, Nazila and Thomas Graf. The Subregular Complexity of Syntactic Islands. The 3rd annual meeting of Society for Computation in Linguistics, January 2nd- 5th , New Orleans, USA [poster]
 - **2019:**	Shafiei, Nazila. An OT-based Analysis of Quantifier Scope in Persian. The 2nd North American Conference in Iranian Linguistics. April 19th-21st, Tuscon, AZ, USA [talk]
