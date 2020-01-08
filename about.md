@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](logo3.png)
+
 
 
 I am Nazila Shafiei, a 4th year Ph.D. candidate in Linguistics at Stony Brook University. In my research, which operates at the intersection of theoretical and computational syntax, I strive to find out how these different avenues can inform our understanding of syntactic phenomena, and in what ways they can be tied together. 
