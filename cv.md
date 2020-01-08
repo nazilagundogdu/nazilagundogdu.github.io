@@ -5,8 +5,5 @@ permalink: /cv/
 published: true
 --- 
 
-You can find my CV [here](https://drive.google.com/file/d/1sgWc__zqaH70KqACYQyUxxRv76je4XKP/view?usp=sharing). 
+You can find my CV [here](https://www.slideshare.net/slideshow/embed_code/key/LhJBzdv76KVBiI). 
 
-[or](nazilashafiei.github.io/ShafieiNazila-CV-Jan20)
-
-{{% staticref "ShafieiNazila-CV-Jan20.pdf" %}}Download my CV{{% /staticref %}}
