@@ -9,7 +9,7 @@ name: Nazila Shafiei
 description: A Computational and Theoretical Syntactician. 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://res.cloudinary.com/dvesv5z86/image/upload/v1521075397/avatars-2029582_1280.png
+#avatar: https://res.cloudinary.com/dvesv5z86/image/upload/v1521075397/avatars-2029582_1280.png
 
 #
 # Flags below are optional
@@ -18,10 +18,10 @@ avatar: https://res.cloudinary.com/dvesv5z86/image/upload/v1521075397/avatars-20
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: nazila.shafiei@gmail.com
   facebook:
   flickr:
-  github: 
+  github: nazilashafiei
   instagram:
   linkedin: nazila
   pinterest:
