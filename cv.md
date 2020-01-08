@@ -5,5 +5,5 @@ permalink: /cv/
 published: true
 --- 
 
-You can find my CV [here]. 
+You can find my CV [here](ShafieiNazila-CV-Jan20.pdf). 
 
