@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Presentations
-permalink: /about/
+permalink: /presentations/
 published: true
 --- 
 ### Conferences
