@@ -6,6 +6,7 @@ published: true
 --- 
 #### Conferences
 - **2020:**	Shafiei, Nazila and Thomas Graf. The Subregular Complexity of Syntactic Islands. The 3rd annual meeting of Society for Computation in Linguistics, January 2nd- 5th , New Orleans, USA [poster]
+
 - **2019:**	Shafiei, Nazila. An OT-based Analysis of Quantifier Scope in Persian. The 2nd North American Conference in Iranian Linguistics. April 19th-21st, Tuscon, AZ, USA [talk]
 - **2019:** 	De Santo, Aniello, and Nazila Shafiei. On the Structure of Relative Clauses in Persian: Evidence from Computational Modeling and Processing Effects. The 2nd North American Conference in Iranian Linguistics. April 19th-21st, Tuscon, AZ, USA [talk]
 - **2019:** 	Shafiei, Nazila, and Aniello De Santo. What processing and computational modeling can tell us about syntax: the case of Persian relative clauses.  32nd Annual CUNY Conference on Human Sentence Processing, March 29th- 31st, Boulder, CO, USA [poster]
