@@ -4,9 +4,9 @@ title:
 permalink: /publications/
 published: true
 ---
-#### Journal papers
+#### Journal Papers
 
-- **under review:** 	Rasekhi Vahideh and Nazila Shafiei. Object ellipsis in Persian.
+- **Under review:** 	Rasekhi Vahideh and Nazila Shafiei. Object ellipsis in Persian.
 
 #### Paper-reviewed Proceedings
 
