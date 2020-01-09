@@ -6,7 +6,7 @@ published: true
 ---
 #### Journal Papers
 
-- **Under review:** 	Rasekhi Vahideh and Nazila Shafiei. Object ellipsis in Persian.
+- **Under review:** 	Rasekhi Vahideh and Nazila Shafiei. *Object ellipsis in Persian*.
 
 #### Paper-reviewed Proceedings
 
