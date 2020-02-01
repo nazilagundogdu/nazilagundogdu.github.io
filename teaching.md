@@ -19,7 +19,7 @@
 
 #### Teaching Assistant
 
-- **Spring 2020:**	Language and Technology (LIN 220), Stony Brook University
+- **Spring 2020:**	Computational Linguistics (LIN 220), Stony Brook University
 
 - **Summer 2019:**	IACS Computes! High School Summer Camp, Stony Brook University
 
