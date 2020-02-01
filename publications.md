@@ -5,8 +5,9 @@ permalink: /publications/
 published: true
 ---
 #### Journal Papers
+- **Submitted:** Nazila Shafiei. *Persian Quantifiers and Their Scope*.
 
-- **Under review:** 	Rasekhi Vahideh and Nazila Shafiei. *Object ellipsis in Persian*.
+- **Under revision:** 	Rasekhi Vahideh and Nazila Shafiei. *Object ellipsis in Persian*.
 
 #### Paper-reviewed Proceedings
 
