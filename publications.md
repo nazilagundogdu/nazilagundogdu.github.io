@@ -8,7 +8,7 @@ published: true
 
 - **In prep:** Nazila Shafiei. *Syntactic Islands: A Computational Perspective*.
 
-- **Submitted:** Nazila Shafiei. *Persian Quantifiers and Their Scope*.
+- **Submitted:** Nazila Shafiei. *Persian Quantifiers and Their Scope* (<A HREF="Shafiei- Persian Quantifiers.pdf">manuscript</A>).
 
 - **Under revision:** 	Rasekhi Vahideh and Nazila Shafiei. *Object ellipsis in Persian*.
 
