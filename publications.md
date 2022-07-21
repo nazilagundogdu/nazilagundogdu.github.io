@@ -30,3 +30,7 @@ published: true
 #### Master's Thesis
 
 - **2016:** Shafiei, Nazila. *[Persian Complex Predicates: Evidence for Verb Movement from Ellipsis and Negation](https://prism.ucalgary.ca/bitstream/handle/11023/2952/ucalgary_2016_shafieiilkhechy_nazila.pdf;jsessionid=B3346904ABBECC29AAC010EC4B22BFE5?sequence=1)*. Master's Thesis, University of Calgary
+
+#### Ph.D. Dissertation
+
+- **2022** Shafiei, Nazila. *[Computational Locality and Domain of Syntactic Long-distance Dependencies](>A HREF="Nazila-Thesis.pdf"</A>)*. Ph.D. Dissertation, Stony Brook Unviersity
