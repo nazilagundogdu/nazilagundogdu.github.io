@@ -33,4 +33,4 @@ published: true
 
 #### Ph.D. Dissertation
 
-- **2022:** Shafiei, Nazila. *[Computational Locality and Domain of Syntactic Long-distance Dependencies](<A HREF="Nazila-Thesis.pdf"</A>)*. Ph.D. Dissertation, Stony Brook Unviersity
+- **2022:** Shafiei, Nazila. *<A HREF="Nazila-Thesis.pdf">Computational Locality and Domain of Syntactic Long-distance Dependencies</A>*. Ph.D. Dissertation, Stony Brook Unviersity
