@@ -8,9 +8,9 @@ published: true
 
 
 
-I am Nazila Shafiei, a computational linguist working as a Language Engineer for Amazon Alexa, and just a dissertation away from being a Ph.D. 
+I am Nazila Gundogdu (Shafiei), with a Ph.D. in Computational Linguistics from Stony Brook Univerisy, and over 4 years of industry experience as a Language Engineer in Amazon Alexa. 
 
-I am in my 5th year as a Ph.D. candidate in [Linguistics at Stony Brook University](https://linguistics.stonybrook.edu). My research operates at the intersection of theoretical and computational syntax, giving me various ways to find out how these different avenues can inform our understanding of syntactic phenomena, and how they can be tied together. My theoretical work has been on subjects such as ellipsis, quantifier and negation scope, and *wh*-questions in Persian. I have conducted some behavioral experiments on some of these phenomena as well. On the computational side, being influenced by the works of [Jeffrey Heinz](http://jeffreyheinz.net/) and [Thomas Graf](https://thomasgraf.net/) on subregular hierarchy, the focus of my computational research is on investigating the complexity of various syntactic operations, in particular syntactic long-distance dependencies such as binding, NPI licensing and movement constraints. This is the topic of my dissertation, where I show that representation matters! And the right representation can reduce syntactic complexities by a great deal and put them in the realm of phonological dependencies, which are generally *subregular*. 
+I finished my doctoral studies in 2022, with a focus on theoretical and computational syntax, giving me various ways to find out how these different avenues can inform our understanding of syntactic phenomena, and how they can be tied together. During my Ph.D. program, I have had the opportunity to [present]() and [publish](publications) my research in various places.
 
 Besides research and academia, my fascination with Machine Learning and Natural Langauge Processing led me seek a position in the leading company for voice activated devices, i.e. Amazon. I have been working as a Language Engineer for Alexa Personal Mobility NLU team, where I can apply my linguistic knowledge in real world applications, and contribute to Alexa's understanding of human commands. 
 
