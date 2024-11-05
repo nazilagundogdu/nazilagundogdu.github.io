@@ -1,3 +1,3 @@
-- **Email:** nazila.shafiei@gmail.com
-- **Office:** N234, Department of Linguistics, Stony Brook University, NY, USA
+- **Email:** nazila.gundogdu@gmail.com
+- **Phone:** +1-631-652-5142
 

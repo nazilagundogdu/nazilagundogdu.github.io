@@ -6,11 +6,7 @@ published: true
 ---
 #### Journal Papers
 
-- **In prep:** Nazila Shafiei. *Syntactic Islands: A Computational Perspective*.
-
-- **Submitted:** Nazila Shafiei. *Persian Quantifiers and Their Scope* (<A HREF="Shafiei- Persian Quantifiers.pdf">manuscript</A>).
-
-- **Under revision:** 	Rasekhi Vahideh and Nazila Shafiei. *Object ellipsis in Persian*.
+- **2023:** Nazila Shafiei. [Persian Quantifiers and Their Scope](https://www.torrossa.com/en/resources/an/5496193#page=51). In *Advances in Iranian Linguistics II*
 
 #### Paper-reviewed Proceedings
 
