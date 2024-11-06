@@ -13,5 +13,591 @@ published: true
     \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
     \]
   </div>
+    <div>
+    \[
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,letter,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+
+%\moderncvcolor{blue}      
+
+
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+%\usepackage{hyperref}
+%\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+%\hypersetup{colorlinks,breaklinks,linkcolor=darkblue,urlcolor=darkblue,anchorcolor=darkblue,citecolor=darkblue}
+
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+\usepackage[margin=1.6cm]{geometry}
+\usepackage{multicol}
+
+%\vspace{1em}
+
+\pagestyle{fancy}
+\lhead{{\color{gray}Nazila G\"{u}ndo\v{g}du}} %header on the pages other than the first
+\rhead{{\color{gray} \thepage}} %header page number
+\headheight= 25pt
+\headsep=10pt
+%\cfoot{center of the footer!}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+\usepackage{verbatim} %to make multi-line comment using \begin{comment} <comment> \end{comment}
+
+% personal data
+\thispagestyle{empty}
+\definecolor{links}{HTML}{2B1B80}
+%\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+
+\name{Nazila}{G\"{u}ndo\v{g}du, Ph.D.}
+ %\title{{\LARGE Computational Linguist}   }                            % optional, remove / comment the line if not wanted
+
+\address{Albuquerque, NM, 87120}{}{}
+%\address{Department of Linguistics, Stony Brook University, NY, USA}{}{}
+
+% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+% \email{xpan1@swarthmore.edu}                               % optional, remove / comment the line if not wanted
+% \homepage{shawnpan.me}                         % optional, remove / comment the line if not wanted
+% \extrainfo{}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+  \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\newcommand*{\customcventry}[7][.25em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {{\color{airforceblue}{\textbf{#3}}}}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\customcvproject}[4][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\newcommand*{\cvref}[3][.25em]{
+%   \vfill\noindent
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \ifx&#3
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#3
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+  
+%\hypersetup{linkcolor=cyan}
+
+\setlength{\tabcolsep}{12pt}
+%\renewcommand{\labelitemi}{}
+\newcommand\Colorhref[3][blue]{\href{#2}{\small\color{#1}#3}}
+
+
+
+\usepackage{academicons} 
+
+\name{\Large Nazila}{G\"{u}ndo\v{g}du, Ph.D.}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\address{Albuquerque}{NM}{87120}  % optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{6316525142}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{nazila.gundogdu@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{nazila}                    % optional, remove / comment the line if not wanted
+%\faLinkedinIn\href{https://www.linkedin.com/in/nazila/}{ nazila}
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%
+
+\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
+%\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=TwRj7w8AAAAJ&hl=en&authuser=1}{ nazila}}
+%----------------------------------------------------------------------------------
+%            content
+%--------------------------------------------\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=TwRj7w8AAAAJ&hl=en&authuser=1}{ John Doe}}\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=TwRj7w8AAAAJ&hl=en&authuser=1}{ John Doe}}--------------------------------------
+\begin{document}
+\hypersetup{linkcolor=red}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+
+\thispagestyle{empty}
+
+\makecvtitle
+\vspace*{-9mm}
+
+%\begin{center}
+%\begin{tabular}{ c| c| c| c | c}
+%\emailsymbol\href{ nazila.gundogdu@gmail.com} { nazila.gundogdu@gmail.com} & \mobilesymbol +1 631 652 5142  & \faLinkedinIn\href{https://www.linkedin.com/in/nazila/}{ nazila}  & Visa Status: U.S. Citizen
+
+%\end{tabular}
+%\end{center}
+
+
+%===============================JOB POSTING=============
+\begin{comment}%Target
+https://www.indeed.com/viewjob?from=app-tracker-saved-applybtn&hl=en&jk=924364c079288bd1&tk=1hqvv4tg0k82n800
+
+4-year degree in quantitative disciplines (Science, Technology, Engineering, Mathematics) or equivalent experience
+3+ years of professional experience or equivalent industry experience
+Experience designing and developing deep learning, machine learning, optimization and statistical models
+Strong hands-on programming skills in Python. Knowledge of SQL, Hadoop/Hive, Spark, and/or Scala
+Good working knowledge of mathematical and statistical concepts, algorithms and computational complexity
+Excellent analytical thinking skills
+Strong problem-solving skills: develop creative and innovative solution to help solve real-world business problems using data sciences approaches
+Able to create documents and narrative suggesting actionable insights
+Excellent communication skills - able to clearly tell data driven stories through appropriate visualizations, graphs and narratives
+Self-driven and results oriented; able to meet tight timelines
+Strong team player with ability to collaborate effectively across geographies
+
+
+\end{comment}
+
+%===============================SUMMARY==================================
+
+
+
+
+\vspace{-0.5em}
+
+
+\section{\LARGE{\textsc{summary}}}{
+ {\begin{itemize}
+ 
+ 
+\item A computational linguist with 4 years of industry experience as a Natural Language Understanding Engineer in developing the voice assistant, Amazon Alexa. 
+
+%Ability to communicate technical information to non-technical personnel.
+%Strong interpersonal and communication skills and the ability to work effectively with a wide range of constituencies in a diverse community.
+%Ability to develop and deliver effective technical presentations, both verbally and in writing.
+\item Excellent written and communication skills evident from my 8+ publications and 12+ industry projects requiring verbal and written coordination with both technical and non-technical audience.
+
+ 
+ 
+%Ability to analyze complex problems, interpret operational needs, and develop integrated, creative solutions.
+%Demonstrated analytical and problem-solving abilities, including skills in making recommendations and decisions.
+\item High problem-solving skills with ability to analyze complex problems, come up with integrated and creative solutions, and make recommendations.
+
+%Ability to learn and understand new concepts in order to develop solutions to institutional-level problems.
+%Knowledge of current technological developments/trends in area of expertise.
+
+\item Exceptional ability to work under tight deadlines and across multiple teams in different geographical time zones, as evident from the number of my deliveries. 
+    
+ 
+
+  \end{itemize}
+}
+}
+
+
+
+\vspace{-0.5em}
+
+%===============================EDUCATION==================================
+\section{\LARGE{\textsc{education}}}
+
+{\customcventry{2016 -- 2022}{Ph.D. in Computational Linguistics}{Stony Brook University}{New York, USA}{}{}
+
+
+{\customcventry{2014 -- 2016}{M.A. in Linguistics}{University of Calgary}{Calgary, Canada}{}{}
+
+{\customcventry{2010 -- 2014}{B.A. in English Language Teaching}{Middle East Technical University}{Ankara, Turkey}{}{}
+  }
+
+%{\customcventry{2001 -- 2006}{B.S. in Civil Engineering}{Baha'i Institute for Higher Education}{Tehran, Iran}{}{}
+  %}
+
+\vspace{-0.5em}
+
+%===============================EXPERIENCE==================================
+
+\section{{\LARGE{\textsc{industry experience}}}}
+
+        
+{\customcventry{11/2022 -- Present}{Manager, Alexa Connected Devices AI NLU }{AMAZON}{Remote, USA}
+{}{}
+        \vspace{0.2em}
+
+{\begin{itemize}
+
+            \item{\small Leading the efforts in onboarding our features on Generative AI (Large Language Models) in collaboration with other scientists and engineers.}
+            \item{\small  Providing constant support to my direct reports in terms of task prioritization, technical onboarding and dealing with ambiguities of the new workflow.}
+            \item{\small   Have overseen the design and shipment of 7 features/products, 2 statistical model releases, 5 A/B experiments and creation of a new domain, resulting in an average decrease of 13\% unwanted traffic.}
+             \item{\small  Strived in focusing on high quality standards by introducing new strategies to improve the domain's health by tracking our metrics, reducing the customer-facing negative metrics such as friction and defect rate by over 22\%.}
+             \item{\small Have been working across teams and domains on science projects, such as predicting device lapse and building a more accurate model for home card hit on multi-modal devices.}
+             \item{\small Delivered the committed projects and more in a timely fashion by planning meticulously, reprioritizing and having open communication with upper management, while coaching two under-performers and dealing with layoffs.}
+             \item{\small Identified gaps in coverage for Widgets on multi-modal devices, which increased traffic by 28\% while reducing friction by 8\% once addressed.}
+                          \item{\small Have contributed to the NLU community by giving talks, writing developer guidelines and coordinating efforts across teams in the times of crisis blocking development work, being awarded the badge of appreciation.}
+
+
+
+             
+
+        \end{itemize}
+        
+        }
+        \vspace{-0.5em}
+        \newpage
+        {\customcventry{12/2021 -- 11/2022}{Language Engineer II, Alexa Devices AI NLU }{}{}
+{}{}
+%{\textit{\hfill{}}}
+\vspace{0.2em}
+
+{\begin{itemize}
+        \item{\small  Designed, implemented and released 6 features/products and 2 statistical model refresh.}
+         \item{\small  Was a top performer being chosen as the employee of the month 4 times and having received 3 accolades from inside and outside my organization.}
+          \item{\small  Took a lead working on high severity events, identified the root causes and mitigation strategies.}
+           \item{\small  Introduced new mechanisms to improve the overall operation of the team, such as how the feature process should work from the intake until it is developed.}
+                \item{\small  Gave various talks to both NLU developers and non-NLU developers audience about various aspects of the NLU work.}
+                \item{\small  Served as an annotation bar raiser reviewing dozens of feature designs from various domains.}
+        \end{itemize}
+        }
+        
+                \vspace{-0.5em}
+                
+                        {\customcventry{05/2020 -- 12/2021}{Language Engineer I, Alexa Local Search NLU }{}{}
+{}{}
+
+  %      {}{}{\textit{Language Engineer, Alexa Local Search NLU} \hfill{05/2020 -- 12/2021}}
+\vspace{0.2em}
+
+{\begin{itemize}
+    
+        \item{\small Developed advanced domain-specific artifacts to expand Alexa’s capabilities and have administered their releases.}
+\item{\small Created and/or extended high quality annotation designs for new features for Alexa.}
+\item{\small  Analyzed, troubleshot, and resolved failures and errors in various modules of Alexa engine pipeline. }
+    \item{\small Provided expert reviews to other team members developmental artifacts.}
+%\item{\small Administered the release of update cycles to the Alexa main engine.} 
+
+  \end{itemize}}
+}
+
+
+\dotfill
+
+%\vspace{0.4em}
+
+{\customcventry{02/2024 -- 04/2024}{Part-time Instructor, Advanced LLM Application Building }{MAVEN}{Remote, USA}
+{}{}
+{\begin{itemize}
+
+            \item{\small Assisted the core instructor with the choice of topics, and substituting as needed.}
+                        \item{\small Prepared course material, slide decks and code notebooks for the topics selected, such as LLM hosting and programming alternatives to prompting, such as DSPy.}
+                        \item{\small Provided critical feedback to other collaborators on their topics, including LLM Guardrails and LLM Finetuning.}
+                        %\item{\small Substituting for the core instructor as needed.}
+                        \item{\small Assisted and tutored the enrollees with the course content and assignments.}
+
+
+
+             
+
+        \end{itemize}
+        
+        }
+      %  \vspace{0.5em}
+
+
+\vspace{-0.5em}
+
+
+
+
+%===============================SKILLS==================================
+
+\section{\LARGE{\textsc{skills}}}
+
+
+\begin{tabular}{@{}ll}
+\textbf{Programming: } & Python \& Pandas (working knowledge), SQL (working knowledge)\\ 
+%\vspace{0.2em}
+
+\textbf{Industry: } & Feature design, FST authoring and testing, Voice assistant devices \\ 
+\vspace{0.2em}
+& pipeline, Version control systems such as {\texttt {git}}, people management\\
+& sprint planning, Jira, quarterly planning, SageMaker, Amazon Bedrock,\\
+\vspace{0.2em}
+
+& Generative AI (LLMs)\\
+%\textbf{Programming: } & Python, LaTeX, SQL\\
+%\textbf{Teaching:} & Syntax, general linguistics, language acquisition, Python \\
+\textbf{Languages:} & Persian \& Azeri (native), English \& Turkish (near-native)  \\
+\textbf{Service:} & Conference organization, abstract review, student representation, workshops, \\
+& reading group organization, animal shelter volunteer\\
+\end{tabular}
+\vspace{-0.5em}
+
+
+ %===============================PROFESSIONAL DEVELOPMENT==================================
+
+\section{\LARGE{\textsc{professional development}}}
+{\begin{itemize}
+\item Data Science Lab (WorldQuant University) \hfill{\textit{In Progress}}
+        \item Generative AI with LLMs (DeepLearning.AI via Coursera) \hfill{\textit{2023}}
+        \item Data Science Math Skills (Duke University via Coursera) \hfill{\textit{2023}}
+
+        \item Fine-tuning Large Language Models Workshop (Amazon Machine Learning University) \hfill{\textit{2023}}
+                \item Fine-tuning Large Language Models (DeepLearning.AI via Coursera) \hfill{\textit{2023}}
+    \item What is Data Science (IBM via Coursera) \hfill{\textit{2023}}
+        \item Tabular Data (Amazon Machine Learning University) \hfill{\textit{2022}}
+    \item Machine Learning (Stanford University via Coursera) \hfill{\textit{2020}}
+  \end{itemize}
+} 
+\vspace{-0.5em}
+\end{document}
+
+%===============================PROJECTS==================================
+ 
+  \section{\LARGE{\textsc{notable projects}}}
+
+{\customcvproject{Seamless Switching}{Amazon, Fall 2023}
+{\begin{itemize}
+  \item {\small   Customers are able to enable or disable their bluetooth connection with their echo buds via voice. I supervised the design and implementation of this feature, synchronizing with stakeholders and other relevant parties, overseeing an A/B experiment and keeping the project on track.   
+   [\Colorhref{
+https://www.amazon.com/gp/help/customer/display.html?nodeId=TqEFBm30uadelzDH8s}{Link}].}
+\end{itemize}
+}
+
+
+
+{\customcvproject{Widgets Feature on Echo Show 15 and QLED Fire TV Devices}{Amazon, Fall 2022}
+{\begin{itemize}
+  \item {\small Widgets feature allows the customers to open their widget gallery and edit their favorite widget panel using their voice only. I was the main Language Engineer that designed, implemented and delivered the Natural Language Understanding part of this feature [\Colorhref{
+https://www.engadget.com/amazon-fire-tv-omni-qled-announced-specs-availability-174942741.html}{Link}].}
+\end{itemize}
+}
+}
+
+
+{\customcvproject{FindMy Project- Fire TV Remote}{Amazon, Fall 2022}
+{\begin{itemize}
+  \item {\small  This feature allows customers to find their remotes using a voice command. I was one of the three main Language Engineers who worked on this feature. I was specifically involved in addressing some high severity issues, including root causing, debugging and fixing, that arose during the testing phase threatening the launch of this feature [\Colorhref{
+https://www.cnet.com/tech/home-entertainment/amazon-fire-tv-remotes-new-feature-lets-you-find-device-with-voice-commands/}{Link 1}, \Colorhref{https://www.linkedin.com/posts/vinuth-rai_amazon-finds-new-fire-tv-remote-under-cushions-activity-6980958392383127552-AeXF?utm_source=share&utm_medium=member_desktop}{Link 2}].}
+\end{itemize}
+}
+}
+
+
+
+
+{\customcvproject{Share My ETA}{Amazon, Winter 2021}
+{\begin{itemize}
+  \item {\small This feature allows customers to share their estimated arrival times with others. I was the Language Engineer that designed, implemented and delivered the Natural Language Understanding part of this feature. }
+\end{itemize}
+}
+}
+
+
+
+%{\customcvproject{A c-command Decoder}{Stony Brook University, Spring 2020}
+%{\begin{itemize}
+  %\item {\small Creating a parser that encodes c-command relation directly from strings using {\texttt {nltk}} tools on Penn Treebank parsed trees, and training the model using Gated Recurrent Units \faGithub\href{https://github.com/nazilashafiei/NLP-Project}. }
+%\end{itemize}
+%}
+%}, 
+
+%{\customcvproject{Sentiment Analysis}{Stony Brook University, Spring 2019}
+  %{\begin{itemize}
+    %\item {\small Using Python scikit-learn machine learning package, we did a \mbox{sentiment} analysis of Amazon reviews on Kindle e-books \faGithub\href{https://github.com/nazilashafiei/Sentiment-Analysis}.}
+  %\end{itemize}
+  %}
+%}
+
+ 
+\vspace{-0.5em}
+
+  %===============================PUBLIC SPEAKING==================================
+
+  \section{\LARGE{\textsc{public speaking (selected)}}}
+  {\customcvproject{Language Engineering 101}{07/2022}
+{\begin{itemize}
+  \item Presented to our partners and non-NLU audience on the different components of the NLU pipeline and how they come together to enable a feature.  
+\end{itemize}
+}
+}
+
+  {\customcvproject{Hierarchy and Parsing; why do we need it?}{05/2021}
+{\begin{itemize}
+  \item Presented some linguistic facts motivating use of parsers and hierarchical structures at a reading group within Alexa organization.  
+\end{itemize}
+}
+}
+
+  {\customcvproject{Subregular Syntax}{04/2021}
+{\begin{itemize}
+  \item Presented parts of my doctorate thesis as a guest lecturer in a graduate Computational Linguistics course at UTAH. 
+\end{itemize}
+}
+}
+
+
+{\customcvproject{\href{https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1081&context=scil}{C-command dependencies as TSL string constraints}, \normalfont (with Thomas Graf)}{01/2019}
+  {\begin{itemize}
+    \item {\small Presented our findings on the computational complexity of syntactic c-command dependencies, such as anaphor binding at the 2$^{nd}$ annual meeting of Society for Computation in Linguistics. 
+}
+  \end{itemize}
+  }
+}
+%\end{document}
+
+\vspace{-0.5em}
+
+%===============================PUBLICATIONS==================================
+
+  \section{\LARGE{\textsc{publications (selected)}}}
+  
+ 
+  {\customcvproject{Shafiei, Nazila.
+ \href{https://benjamins.com/catalog/cilt.361.02sha}{\normalfont Persian Quantifiers and their scope.}}{2023}
+ {\small \textit{Advances in Iranian Linguistics II}, 44-80. }
+}
+
+ 
+  {\customcvproject{Shafiei, Nazila \normalfont  and Thomas Graf. \href{https://scholarworks.umass.edu/scil/vol3/iss1/27/} {The Subregular Complexity of Syntactic Islands.} }{2020}
+ {\small In \textit{Proceedings of Society for Computation in Linguistics}, volume 3, article 27. }
+}
+
+ {\customcvproject{\normalfont Graf, Thomas and \textbf{Nazila Shafiei}. \normalfont \href{https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1081&context=scil}{C-command dependencies as TSL string constraints.} }{2019}
+ {\small In \textit{Proceedings of Society for Computation in Linguistics}, volume 2, article 22. }
+}
+
+
+
+%\newpage
+
+ {\customcvproject{Shafiei, Nazila \normalfont and Dennis Ryan Storoshenko.
+ \href{https://repository.upenn.edu/cgi/viewcontent.cgi?article=1967&context=pwpl}{ Scope as a Diagnostic for the Position of}}{2017}
+ {Negation in Persian. \small \textit{University of Pennsylvania Working Papers in Linguistics}, 23(1). }
+}
+
+
+
+
+
+
+
+
+
+
+
+  \vspace{-0.5em}
+
+
+%=========================AWARDS AND COMPETITIONS===============================
+
+  \section{\LARGE{\textsc{awards}}}
+\customcvproject{Winner of Alexa Auto Hackathon}{2020}
+  {\begin{itemize}
+    \item {\small Our team received the \textit{voice of people} award. }
+  \end{itemize}}
+\customcvproject{University of Calgary Research Scholarship}{2016, 2017}
+  {\begin{itemize}
+    \item {\small Awarded every semester for research purposes. }
+  \end{itemize}}
+\customcvproject{Turkish Government Success Scholarship}{2014}
+  {\begin{itemize}
+    \item {\small Awarded in my last year of undergraduate studies for being an exemplary student. }
+  \end{itemize}}
+\customcvproject{Middle East Technical University Top Ranking Student Award}{2014}
+  {\begin{itemize}
+    \item {\small Awarded as the top student in my final year of the Bachelor’s degree.}
+  \end{itemize}}   
+  
+
+    
+
+
+\end{document}
+
+
+
+\vspace{-0.5em}
+
+
+ 
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+
+
+%% end of file `template.tex'.
+    \]
+  </div>
 </body>
 
