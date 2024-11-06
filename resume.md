@@ -10,7 +10,9 @@ published: true
   <p>Here is a block equation:</p>
   <div>
     \[
-    \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\begin{itemize}
+    \item hey
+    \end{itemize}
     \]
   </div>
 </body>
