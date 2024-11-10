@@ -3,6 +3,7 @@ layout: page
 title: 
 permalink: /projects/
 published: true
+title: ""
 ---
 
 
