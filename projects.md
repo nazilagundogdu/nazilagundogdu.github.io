@@ -5,6 +5,8 @@ permalink: /projects/
 published: true
 ---
 
+
+
 ### Personal Projects
 - **Ongoing** <br />
 **[Movie Trends of the Past 1/2 Century:](https://github.com/nazilagundogdu/movie-trends)** This project, which is still ongoing, was inspired by my personal interests on the movie industry. Noticing a downword projectory of the movies' qualities, I was curious to see if I can (dis)prove this assumption. To do so, I have so far analyzed the Oscar-nominated movies in the past 50 years. I am planning to expand the analysis to more movies based on their genre, etc. 
