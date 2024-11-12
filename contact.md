@@ -1,2 +1,2 @@
-- **Email:** ![email](images/email.jpg)
+- **Email:** nazila [dot] gundogdu [at] gmail [dot] com
 
