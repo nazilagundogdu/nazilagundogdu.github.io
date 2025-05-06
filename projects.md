@@ -9,7 +9,10 @@ title: ""
 
 
 ### Personal Research
-- **Ongoing** <br />
+- **Ongoing (SpringBoard Capstone Project)** <br />
+**[Mapping the Gender Pay Gap: Insights for Equity and Action:](https://github.com/nazilagundogdu/GenderPayGap)** The gender-based pay gap remains a persistent and well-documented issue in the U.S. Despite equal qualifications, experience, and education, women are consistently paid less than their male counterparts. According to the National Women’s Law Center (see figure below), the gap can be as wide as 74.9 cents per dollar earned by men, in some states. This project aims to analyze gender pay disparities based on education level, gender and race, and develop a model that can predict these disparities with >90% accuracy, in a course of 3 months.
+
+- **Winter 2024** <br />
 **[Movie Trends of the Past 1/2 Century:](https://github.com/nazilagundogdu/movie-trends)** This project, which is still ongoing, was inspired by my personal interests on the movie industry. Noticing a downword projectory of the movies' qualities, I was curious to see if I can (dis)prove this assumption. To do so, I have so far analyzed the Oscar-nominated movies in the past 50 years. I am planning to expand the analysis to more movies based on their genre, etc. 
 
   
